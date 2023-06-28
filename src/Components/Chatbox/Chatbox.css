@@ -1,0 +1,45 @@
+.Chatbox {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 25rem;
+    height: 30rem;
+    position: relative;
+    border: 1px solid black;
+}
+
+.chatUserTitle {
+    height: 1.5rem;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.chatMessages{
+    position: absolute;
+    bottom: 35px;
+    width: inherit;
+    height: 25rem;
+    overflow-y: scroll;
+}
+
+.inputMsg {
+    width: 20rem;
+    height: 20px;
+}
+
+.sendMsg {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 10px;
+}
+
+.typing  {
+    width: inherit;
+    position: absolute;
+    left: 18rem;
+    top: 8px;
+    font-style: italic;
+    color: gray;
+}
